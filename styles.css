@@ -10,8 +10,10 @@ li {
 }
 
 li a {
+    width: 100%;
     color: black;
     font: Lucida Grande;
+    text-decoration: none;
     display: block;
     padding: 16px;
     background-color:#0000FF;
