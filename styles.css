@@ -23,5 +23,6 @@ li a:hover {
 }
 
 h1 {
-    font: Impact, SeaGreen, sans-serif;
+    font: Impact, sans-serif;
+    color: SeaGreen;
 }
