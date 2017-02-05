@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(137, 168, 196);
+    background-color: #333;
 }
 
 li {
@@ -25,4 +25,9 @@ li a:hover {
 h1 {
     font: Impact, sans-serif;
     color: rgb(1, 32, 104);
+}
+
+h2 {
+    font: Impact, sans-serif;
+    color: rgb(122, 165, 221)
 }
