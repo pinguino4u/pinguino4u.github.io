@@ -8,6 +8,17 @@
       <li><a href="qaforums.html">Q&#38;A Forums</a></li>
       <li><a href="spanishlessons.html">Spanish Lessons</a></li>
     </ul>
-    Hello! 
+    Have questions?
+    
+    <button onClick="promptQuestion()">Ask a question</button>
+    <script>
+      function promptQuestion() {
+        var question = prompt("Enter your question here", " ");
+        if (question != null) {
+          // we'll fix this up to store the questions somehow and 
+          // make them last on the website
+          document.write(question);
+        }
+      }
   </body>
  </html>
