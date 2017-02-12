@@ -9,7 +9,7 @@
       <li><a href="spanishlessons.html">Spanish Lessons</a></li>
     </ul>
     Have questions?
-    
+    <p id="questionbox"></p>
     <button onClick="promptQuestion()">Ask a question</button>
     <script>
       function promptQuestion() {
@@ -17,7 +17,7 @@
         if (question != null) {
           // we'll fix this up to store the questions somehow and 
           // make them last on the website
-          document.write(question);
+          document.getElementById("questionbox").innerHTML = question;
         }
       }
     </script>
