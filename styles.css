@@ -23,11 +23,11 @@ li a:hover {
 }
 
 h1 {
-    font: Impact, sans-serif;
+    font-family: "PT Sans Narrow", sans-serif;
     color: rgb(1, 32, 104);
 }
 
 h2 {
-    font: Impact, sans-serif;
+    font-family: "PT Sans Narrow", sans-serif;
     color: rgb (9, 10, 40);
 }
