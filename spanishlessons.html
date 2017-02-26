@@ -11,6 +11,20 @@
   
   <p> </p>
   <p> </p>
+  <div id="tableSetup"></div>
+  <script>
+    function tableSetup() {
+      var numLessons = 3;
+      var tRow = "";
+      document.getElementById("tableSetup").innerHTML = "<tr>";
+      for (i=0;i<numLessons;i++) {
+        tRow = tRow + "<td> <a href=\"spanishlessons/L" + i + "\"> <\td>";
+        document.getElementById("tableSetup").innerHTML = tRow;
+      document.getElementById("tableSetup").innerHTML = "</tr>";
+    }
+      
+    tableSetup();
+  </script>
      <table>
         <tr> 
           <td> <a href="">L1</a> </td>
