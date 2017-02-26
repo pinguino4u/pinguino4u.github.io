@@ -29,5 +29,11 @@ h1 {
 
 h2 {
     font: Impact, sans-serif;
-    color: rgb (9, 10, 40)
+    color: rgb (9, 10, 40);
 }
+
+<style>
+    body {
+        background-color: rgb (179, 249, 234);
+        }
+</style>
