@@ -25,9 +25,11 @@ li a:hover {
 h1 {
     font-family: "PT Sans Narrow", sans-serif;
     color: rgb(1, 32, 104);
+    font-size: 24px;
 }
 
 h2 {
     font-family: "PT Sans Narrow", sans-serif;
     color: rgb (9, 10, 40);
+    font-size: 18px;
 }
